@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HOME">
+
+    <TableLayout
+        android:id="@+id/user"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:background="@color/green">
+        <TableRow>
+            <ImageView
+                android:src="@drawable/user"
+                android:layout_width="100sp"
+                android:layout_column="1"
+                android:layout_height="100sp"/>
+            <TableLayout
+                android:paddingLeft="10sp">
+                <TextView
+                    android:text="WELCOME USER"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/earn"
+                    android:text="You earned 0"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+            </TableLayout>
+            <ImageView
+                android:id="@+id/re"
+                android:layout_gravity="bottom"
+                android:layout_height="30sp"
+                android:layout_width="30sp"
+                android:src="@drawable/refresh"/>
+        </TableRow>
+    </TableLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp">
+            <TableRow
+                android:id="@+id/mission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="Mission"/>
+                <ImageView
+                    android:src="@drawable/right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:layout_weight="2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@color/green">
+                <ImageView
+                    android:src="@drawable/camera"
+                    android:scaleType="centerInside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="50 Coin"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/olx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="Trade"/>
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="5 Coins"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/vedio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="Watch Advertisement"/>
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="20 Coins"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/refer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="Refer This App"/>
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="200 Coins"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/description"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="App Description"/>
+                <ImageView
+                    android:src="@drawable/right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:layout_weight="2" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/Lang"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green">
+                <TextView
+                    android:layout_height="50sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:text="Language"/>
+                <ImageView
+                    android:src="@drawable/right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:layout_weight="2" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

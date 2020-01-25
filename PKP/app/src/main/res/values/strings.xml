@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PKP</string>
+    <string name="desc_eng">"PKP is creating a new world of work opportunities via Micro jobs.Become a Tasker on PKP and start earning money with your smartphone!Micro jobs on PKP are called 'Missions'. Find and apply for Missions and complete simple tasks on your phone, at your home or in your locality to get rewarded! Taskers can earn cash; rewards are certificates on completing Missions.Look for interesting Missions from leading companies and gain valuable experience and learnings. You can also earn referral code certificates on PKP!Find all kinds of news, gigs, micro jobs and Missions that suit your requirement and work at your own time and convenience. You don't need special skills or even a resume to start working!Invest more time and use your skills to complete special Missions and earn special rewards and higher cash payouts!Join our distributed work force and keep earning.Application consists various functionality such as:
+    - Marketing
+    - News Flash
+    - Camera
+    - Watch video Ad.
+    The future of work is here.What are you waiting for?
+
+        Download  PKP and get started now"
+    </string>
+    <string name="desc_hin">"PKP माइक्रो नौकरियों के माध्यम से काम के अवसरों की एक नई दुनिया बना रहा है।PKP पर एक टास्कर बनें और अपने स्मार्टफोन से पैसा कमाना शुरू करें!PKP पर माइक्रो नौकरियों को 'मिशन' कहा जाता है।मिशनों के लिए खोजें और आवेदन करें और पुरस्कृत होने के लिए अपने घर पर या अपने इलाके में अपने फोन पर सरल कार्यों को पूरा करें! टस्कर नकद कमा सकते हैं; पुरस्कार मिशनों को पूरा करने पर प्रमाण पत्र हैं।प्रमुख कंपनियों के दिलचस्प मिशनों की तलाश करें और मूल्यवान अनुभव और सीख प्राप्त करें। आप PKP पर रेफरल कोड सर्टिफिकेट भी कमा सकते हैं!सभी प्रकार के समाचार, गिग्स, माइक्रो जॉब्स और मिशन खोजें जो आपकी आवश्यकता के अनुरूप हों और अपने समय और सुविधा पर काम करें। आपको काम शुरू करने के लिए विशेष कौशल या फिर से शुरू करने की आवश्यकता नहीं है!अधिक समय का निवेश करें और विशेष मिशनों को पूरा करने के लिए अपने कौशल का उपयोग करें और विशेष पुरस्कार और उच्च नकद भुगतान अर्जित करें!हमारे वितरित कार्य बल में शामिल हों और कमाई करते रहें।एप्लिकेशन में विभिन्न कार्यक्षमताएं शामिल हैं जैसे:
+- विपणन
+- समाचार फ्लैश
+- कैमरा
+- वीडियो विज्ञापन देखें।
+काम का भविष्य यहां है।आप किस का इंतजार कर रहे हैं?
+PKP डाउनलोड करें और अभी आरंभ करें। ."</string>
+    <string name="dialog_demo">Successfully Uploaded</string>
+    <string name="dialog_title"></string>
+    <!--.............................................eng-->
+    <string name="english">English</string>
+    <string name="ecap">Capture a photo</string>
+    <string name="eup">Upload Photo</string>
+
+    <!--............................................hindi-->
+    <string name="hindi">हिंदी</string>
+    <string name="hcap">एक तस्वीर कैप्चर करें</string>
+    <string name="hup">फोटो अपलोड करें</string>
+
+<!--.................................................marathi-->
+    <string name="marathi">मराठी</string>
+    <string name="mcap">एक फोटो कॅप्चर करा</string>
+    <string name="mup">फोटो अपलोड करा</string>
+</resources>
